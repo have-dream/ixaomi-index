@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小米商城-小米手机、红米Note、小米笔记本、小米电视正品专卖官方网站</title>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/index.js"></script>
+		<!--[if lt IE9 ]>
+			<script type="text/javascript">
+				var newLabelArr = ("header,footer,nav,aside,section,article").splite(",");
+				for (var i = elementArry.length - 1; i >= 0; i--) {
+					document.createElement(elementArry[i]);
+				};
+				
+			</script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<div class="headercon">
+				<div class="topbar-nav">
+					<a href="">小米商城</a>
+					<span>|</span>
+					<a href="">MIUI</a>
+					<span>|</span>
+					<a href="">米聊</a>
+					<span>|</span>
+					<a href="">游戏</a>
+					<span>|</span>
+					<a href="">多看阅读</a>
+					<span>|</span>
+					<a href="">云服务</a>
+					<span>|</span>
+					<a href="">金融</a>
+					<span>|</span>
+					<a href="">小米网移动版</a>
+					<span>|</span>
+					<a href="">问题反馈</a>
+					<span>|</span>
+					<a href="">Select Region</a>
+					<span>|</span>
+				</div>
+				<div class="topbar-cart">
+					<a href="shopcart.html">
+						<p></p>
+						购物车
+						<span id="cart-count">(0)</span>
+					</a>
+					<ul id="cart-container" class="show-cart">
+						<p id="top-hide-text">购物车中还没有商品，赶紧选购吧！</p>
+					</ul>
+				</div>
+				<div class="topbar-login">
+					<a href="login.html">登录</a>
+					<span>|</span>
+					<a href="register.html">注册</a>
+					<span>|</span>
+					<a href="messages.html">消息通知</a>
+					<span>|</span>
+				</div>
+			</div>
+		</header>
+		<!-- nav -->
+		<nav>
+			<div class="navcon clear-fix">
+				<div class="header-logo">
+           			<a class="logo" href="index.html" title="小米官网" ><img src="img/mi-logo.png"/></a>
+                    <div class="doodle">
+                    	<a class="link-block" href="" target="_blank"></a>
+                    </div>
+				</div>
+				<ul id="main-nav">
+					<div id="want-show">
+						<li class="left-more"><a href="">小米手机</a></li>
+						<li><a href="">红米</a></li>
+						<li><a href="">平板 · 笔记本</a></li>
+						<li><a href="">电视</a></li>
+						<li><a href="">盒子 · 影音</a></li>
+						<li><a href="">路由器</a></li>
+						<li><a href="">自能硬件</a></li>
+					</div>
+					<li><a href="">社区</a></li>
+					<li><a href="">服务</a></li>
+				</ul>
+				<ul id="nav-con" class="nav-con">
+					<li class="left-more">
+						<div class="first nav-com">
+							<img src="img/01-01.jpg" />
+							<div class="title">
+								<a href="">小米5s</a>
+								<p>1999元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/01-02.jpg" />
+							<div class="title">
+								<a href="">小米5s Plus</a>
+								<p>2999元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/01-03.jpg" />
+							<div class="title">
+								<a href="">小米5</a>
+								<p>1599元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/01-04.jpg" />
+							<div class="title">
+								<a href="">小米Max</a>
+								<p>1299元起</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="first nav-com">
+							<img src="img/02-01.jpg" />
+							<div class="title">
+								<a href="">小米Pro</a>
+								<p>1499元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/02-02.jpg" />
+							<div class="title">
+								<a href="">红米note4</a>
+								<p>899元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/02-03.jpg" />
+							<div class="title">
+								<a href="">红米note3</a>
+								<p>799元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/02-04.jpg" />
+							<div class="title">
+								<a href="">红米手机3s</a>
+								<p>699元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/02-05.jpg" />
+							<div class="title">
+								<a href="">红米手机3</a>
+								<p>699元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/02-06.jpg" />
+							<div class="title">
+								<a href="">红米手机3X</a>
+								<p>799元起</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="first nav-com">
+							<img src="img/03-01.jpg" />
+							<div class="title">
+								<a href="">小米平板2 16G</a>
+								<p>999元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/03-02.jpg" />
+							<div class="title">
+								<a href="">小米平板2 64G</a>
+								<p>1299元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/03-03.jpg" />
+							<div class="title">
+								<a href="">小米平板2 64G Windows版</a>
+								<p>1299元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/03-04.jpg" />
+							<div class="title">
+								<a href="">小米平板Air 12.5</a>
+								<p>3499元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/03-05.jpg" />
+							<div class="title">
+								<a href="">小米平板Air 13.3</a>
+								<p>4999元起</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="first nav-com">
+							<img src="img/04-01.png" />
+							<div class="title">
+								<a href="">小米电视3s 43英寸</a>
+								<p>1799元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/04-02.png" />
+							<div class="title">
+								<a href="">小米电视3s 48英寸</a>
+								<p>1999元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/04-03.png" />
+							<div class="title">
+								<a href="">小米3s 55英寸</a>
+								<p>3499元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/04-04.png" />
+							<div class="title">
+								<a href="">小米3s 65英寸</a>
+								<p>4999元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/04-05.png" />
+							<div class="title">
+								<a href="">小米3s 70英寸</a>
+								<p>9999元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/04-06.jpg" />
+							<div class="title">
+								<a href="">查看全部</a>
+								<a href="">小米电视</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="first nav-com">
+							<img src="img/05-01.png" />
+							<div class="title">
+								<a href="">小米盒子mini版</a>
+								<p>179元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/05-02.png" />
+							<div class="title">
+								<a href="">小米盒子3</a>
+								<p>249元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/05-03.jpg" />
+							<div class="title">
+								<a href="">小米盒子3增强版</a>
+								<p>399元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/05-04.jpg" />
+							<div class="title">
+								<a href="">小米电视主机</a>
+								<p>999元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/05-05.jpg" />
+							<div class="title">
+								<a href="">小米家庭音响 金属版</a>
+								<p>899元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/05-06.jpg" />
+							<div class="title">
+								<a href="">小米家庭音响 标准版</a>
+								<p>699元起</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="first nav-com">
+							<img src="img/06-01.jpg" />
+							<div class="title">
+								<a href="">全新小米路由器</a>
+								<p>699元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/06-02.png" />
+							<div class="title">
+								<a href="">小米路由器3 1200M</a>
+								<p>149元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/06-03.jpg" />
+							<div class="title">
+								<a href="">小米路由器mini版</a>
+								<p>129元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/06-04.jpg" />
+							<div class="title">
+								<a href="">小米路由器3c 300M</a>
+								<p>99元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/06-05.jpg" />
+							<div class="title">
+								<a href="">小米路由器 青春版</a>
+								<p>79元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/06-06.jpg" />
+							<div class="title">
+								<a href="">小米WIFI放大器</a>
+								<p>39元起</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="first nav-com">
+							<img src="img/07-01.jpg" />
+							<div class="title">
+								<a href="">九号平衡车</a>
+								<p>1999元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/07-02.jpg" />
+							<div class="title">
+								<a href="">小米净水器</a>
+								<p>1299元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/07-03.jpg" />
+							<div class="title">
+								<a href="">米家压力IH电饭煲</a>
+								<p>999元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/07-04.jpg" />
+							<div class="title">
+								<a href="">小米空气净化器2</a>
+								<p>699元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/07-05.jpg" />
+							<div class="title">
+								<a href="">智能摄像头机</a>
+								<p>149元起</p>
+							</div>
+						</div>
+						<div class="other nav-com">
+							<img src="img/07-06.jpg" />
+							<div class="title">
+								<a href="">查看全部</a>
+								<a href="">智能硬件</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<form id="nav-search" onsubmit="return false">
+					<input id="search-val" type="search" />
+					<input class="search-btn" type="submit" value="" />
+					<div class="search-hot-words">
+						<a href="">小米5s首发</a>
+						<a href="">人工智能电视</a>
+					</div>
+					<ul id="search-msg" class="search-msg">
+						<li>小米手机5<span>约有11件</span></li>
+						<li>空气净化器2<span>约有1件</span></li>
+						<li>活塞耳机<span>约有4件</span></li>
+						<li>小米路由器<span>约有8件</span></li>
+						<li>移动电源<span>约有21件</span></li>
+						<li>运动相机<span>约有3件</span></li>
+						<li>小蚁摄像机<span>约有2件</span></li>
+						<li>小米体重秤<span>约有1件</span></li>
+						<li>小米插排线<span>约有13件</span></li>
+						<li>配件优惠套装<span>约有32件</span></li>
+					</ul>
+				</form>
+			</div>
+		</nav>
+		<!-- banner -->
+		<div class="banner">
+			<div class="banner-con">
+				<div class="home-hero-slider">
+					<div id="ban-con">
+						<img class="first-show" src="img/banner01.jpg"/>
+						<img src="img/banner02.jpg"/>
+						<img src="img/banner03.jpg"/>
+						<img src="img/banner04.jpg"/>
+						<img src="img/banner05.jpg"/>
+						<div id="go-left" class="go-left go-where"></div>
+						<div id="go-right" class="go-right go-where"></div>
+						<ul id="small-link">
+							<li class="first-li"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				<div id="aside-nav">
+					<ul id="categoryList">
+						<li class="aside-items"><a href="" class="aside-items-con">手机 电话卡<span></span></a></li>
+						<li class="aside-items"><a href="" class="aside-items-con">笔记本 平板<span></span></a></li>
+						<li class="aside-items"><a href="" class="aside-items-con">电视 盒子<span></span></a></li>
+						<li class="aside-items"><a href="" class="aside-items-con">路由器 智能硬件<span></span></a></li>
+						<li class="aside-items"><a href="" class="aside-items-con">移动电源 电池 插线排<span></span></a></li>
+						<li class="aside-items"><a href="" class="aside-items-con">耳机 音响<span></span></a></li>
+						<li class="aside-items"><a href="" class="aside-items-con">保护套 贴膜<span></span></a></li>
+						<li class="aside-items"><a href="" class="aside-items-con">线材 支架 存储卡<span></span></a></li>
+						<li class="aside-items"><a href="" class="aside-items-con">箱包 服饰<span></span></a></li>
+						<li class="aside-items"><a href="" class="aside-items-con">米兔 生活周边<span></span></a></li>
+					</ul>
+					<ul id="aside-items">
+						<li class="phone-con links">
+							<input type="hidden" value="0" />
+						</li>
+						<li class="compute-con links">
+							<input type="hidden" value="1" />
+						</li>
+						<li class="kankan-con links">
+							<input type="hidden" value="2" />
+						</li>
+						<li class="wifi-con links">
+							<input type="hidden" value="3" />
+						</li>
+						<li class="power-con links">
+							<input type="hidden" value="4" />
+						</li>
+						<li class="erji-con links">
+							<input type="hidden" value="5" />
+						</li>
+						<li class="protect-con links">
+							<input type="hidden" value="6" />
+						</li>
+						<li class="store-con links">
+							<input type="hidden" value="7" />
+						</li>
+						<li class="bag-con links">
+							<input type="hidden" value="8" />
+						</li>
+						<li class="around-con links">
+							<input type="hidden" value="9" />
+						</li>
+					</ul>
+				</div>
+				<div class="home-hero-sub clear-fix">
+					<ul class="left-side-nav">
+						<li><a href=""><i></i>选购手机</a></li>
+						<li class="second-change"><a href=""><i></i>企业团购</a></li>
+						<li class="third-change"><a href=""><i></i>官翻产品</a></li>
+						<li class="fourth-change"><a href=""><i></i>小米移动</a></li>
+						<li class="fifth-change"><a href=""><i></i>以旧换新</a></li>
+						<li class="sixth-change"><a href=""><i></i>话费充值</a></li>
+					</ul>
+					<div class="pic-show">
+						<a class="no-margin" href=""><img src="img/section03.jpg"/></a>
+						<a href=""><img src="img/section04.jpg" /></a>
+						<a href=""><img src="img/section05.jpg"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- star-goods -->
+		<div class="home-goods-show">
+			<div class="goods-con">
+				<div class="goods-title-con">
+					<h3 class="goods-title">小米明星产品</h3>
+					<div class="goods-go-where" id="goods-go-where">
+						<a class="left-disabled" href="javascript:void(0)"></a>
+						<a class="right-bg" href="javascript:void(0)"></a>
+					</div>
+				</div>
+				<div class="goods-pic-show">
+					<div class="goods-pic-box">
+						<ul id="goods-pic-change" class="pic-swap clear-fix">
+							<li class="border-orange">
+								<a href="#">
+									<img src="img/star-pic01.png" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+								
+							</li>
+							<li class="border-green">
+								<a href="#">
+									<img src="img/star-pic02.png" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+							</li>
+							<li class="border-blue">
+								<a href="#">
+									<img src="img/star-pic03.png" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+							</li>
+							<li class="border-red">
+								<a href="#">
+									<img src="img/star-pic04.jpg" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+							</li>
+							<li class="border-purple">
+								<a href="#">
+									<img src="img/star-pic05.png" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+							</li>
+							<li class="border-orange">
+								<a href="#">
+									<img src="img/star-pic06.jpg" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+							</li>
+							<li class="border-green">
+								<a href="#">
+									<img src="img/star-pic07.jpg" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+							</li>
+							<li class="border-blue">
+								<a href="#">
+									<img src="img/star-pic08.png" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+							</li>
+							<li class="border-red">
+								<a href="#">
+									<img src="img/star-pic09.png" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+							</li>
+							<li class="border-purple">
+								<a href="#">
+									<img src="img/star-pic10.png" />
+									<h3>米家飞利浦智睿台灯二代</h3>
+									<p class="desc">感知环境光，主动优化场景照明</p>
+									<p class="price">199元</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  -->
+	</body>
+</html>
